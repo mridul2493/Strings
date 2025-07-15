@@ -43,7 +43,13 @@ public class string1 {
         .length()
         .toCharArray()
         .equals()
-
+         */
+        /*
+        Difference between String and StringBuilder :
+        String: Immutable — once created, its content cannot be changed. Operations like concatenation (+, concat)
+         generate new String objects.
+         StringBuilder: Mutable — modifies its internal char[] buffer in place.
+         You can repeatedly append, insert, delete without creating new objects .
          */
     }
 }
